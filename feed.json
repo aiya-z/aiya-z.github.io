@@ -7,16 +7,20 @@
     "home_page_url": "https://aiya-z.github.io",
     "items": [
         {
-            "id": "https://aiya-z.github.io/2024/05/21/jsoncpp/",
-            "url": "https://aiya-z.github.io/2024/05/21/jsoncpp/",
+            "id": "https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/",
+            "url": "https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/",
             "title": "jsoncpp",
             "date_published": "2024-05-21T00:37:32.000Z",
             "content_html": "<h2 id=\"下载jsoncpp源码\"><a class=\"anchor\" href=\"#下载jsoncpp源码\">#</a> 下载 JsonCpp 源码</h2>\n<p><code>https://github.com/open-source-parsers/jsoncpp</code></p>\n<p><span id=\"more\"></span></p>\n<h2 id=\"使用cmake进行编译\"><a class=\"anchor\" href=\"#使用cmake进行编译\">#</a> 使用 Cmake 进行编译</h2>\n<h2 id=\"cmake下载地址-根据配置下载对应的安装包\"><a class=\"anchor\" href=\"#cmake下载地址-根据配置下载对应的安装包\">#</a> Cmake<a href=\"https://cmake.org/download/\"> 下载地址</a>。根据配置下载对应的安装包</h2>\n<p>生成.dll，.lib 等库文件</p>\n",
-            "tags": []
+            "tags": [
+                "杂项",
+                "C++",
+                "c++"
+            ]
         },
         {
-            "id": "https://aiya-z.github.io/2024/05/20/hello-world/",
-            "url": "https://aiya-z.github.io/2024/05/20/hello-world/",
+            "id": "https://aiya-z.github.io/2024/05/20/mixed/cpp/hello-world/",
+            "url": "https://aiya-z.github.io/2024/05/20/mixed/cpp/hello-world/",
             "title": "Hello World",
             "date_published": "2024-05-20T03:25:30.073Z",
             "content_html": "<p>Welcome to <a href=\"https://hexo.io/\">Hexo</a>! This is your very first post. Check <a href=\"https://hexo.io/docs/\">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href=\"https://hexo.io/docs/troubleshooting.html\">troubleshooting</a> or you can ask me on <a href=\"https://github.com/hexojs/hexo/issues\">GitHub</a>.</p>\n<h2 id=\"quick-start\"><a class=\"anchor\" href=\"#quick-start\">#</a> Quick Start</h2>\n<h3 id=\"create-a-new-post\"><a class=\"anchor\" href=\"#create-a-new-post\">#</a> Create a new post</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo new <span class=\"token string\">\"My New Post\"</span></pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/writing.html\">Writing</a></p>\n<h3 id=\"run-server\"><a class=\"anchor\" href=\"#run-server\">#</a> Run server</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo server</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/server.html\">Server</a></p>\n<h3 id=\"generate-static-files\"><a class=\"anchor\" href=\"#generate-static-files\">#</a> Generate static files</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo generate</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/generating.html\">Generating</a></p>\n<h3 id=\"deploy-to-remote-sites\"><a class=\"anchor\" href=\"#deploy-to-remote-sites\">#</a> Deploy to remote sites</h3>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"><span>h</span></figcaption><table><tr><td data-num=\"1\"></td><td><pre>$ hexo deploy</pre></td></tr></table></figure><p>More info: <a href=\"https://hexo.io/docs/one-command-deployment.html\">Deployment</a></p>\n",

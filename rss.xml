@@ -12,10 +12,14 @@
         <language>en</language>
         <pubDate>Tue, 21 May 2024 08:37:32 +0800</pubDate>
         <lastBuildDate>Tue, 21 May 2024 08:37:32 +0800</lastBuildDate>
+        <category term="computer science" />
         <item>
-            <guid isPermalink="true">https://aiya-z.github.io/2024/05/21/jsoncpp/</guid>
+            <guid isPermalink="true">https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/</guid>
             <title>jsoncpp</title>
-            <link>https://aiya-z.github.io/2024/05/21/jsoncpp/</link>
+            <link>https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/</link>
+            <category term="杂项" scheme="https://aiya-z.github.io/categories/mixed/" />
+            <category term="C++" scheme="https://aiya-z.github.io/categories/mixed/cpp/" />
+            <category term="c++" scheme="https://aiya-z.github.io/tags/c/" />
             <pubDate>Tue, 21 May 2024 08:37:32 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;下载jsoncpp源码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载jsoncpp源码&#34;&gt;#&lt;/a&gt; 下载 JsonCpp 源码&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;https://github.com/open-source-parsers/jsoncpp&lt;/code&gt;&lt;/p&gt;
@@ -26,9 +30,9 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://aiya-z.github.io/2024/05/20/hello-world/</guid>
+            <guid isPermalink="true">https://aiya-z.github.io/2024/05/20/mixed/cpp/hello-world/</guid>
             <title>Hello World</title>
-            <link>https://aiya-z.github.io/2024/05/20/hello-world/</link>
+            <link>https://aiya-z.github.io/2024/05/20/mixed/cpp/hello-world/</link>
             <pubDate>Mon, 20 May 2024 11:25:30 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;

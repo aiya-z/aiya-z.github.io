@@ -9,10 +9,11 @@
       <name>Aiya</name>
     </author>
     <updated>2024-05-21T00:37:32.000Z</updated>
+    <category term="computer science" />
     <entry>
-        <id>https://aiya-z.github.io/2024/05/21/jsoncpp/</id>
+        <id>https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/</id>
         <title>jsoncpp</title>
-        <link rel="alternate" href="https://aiya-z.github.io/2024/05/21/jsoncpp/"/>
+        <link rel="alternate" href="https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/"/>
         <content type="html">&lt;h2 id=&#34;下载jsoncpp源码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#下载jsoncpp源码&#34;&gt;#&lt;/a&gt; 下载 JsonCpp 源码&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;https://github.com/open-source-parsers/jsoncpp&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -20,12 +21,15 @@
 &lt;h2 id=&#34;cmake下载地址-根据配置下载对应的安装包&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#cmake下载地址-根据配置下载对应的安装包&#34;&gt;#&lt;/a&gt; Cmake&lt;a href=&#34;https://cmake.org/download/&#34;&gt; 下载地址&lt;/a&gt;。根据配置下载对应的安装包&lt;/h2&gt;
 &lt;p&gt;生成.dll，.lib 等库文件&lt;/p&gt;
 </content>
+        <category term="杂项" scheme="https://aiya-z.github.io/categories/mixed/" />
+        <category term="C++" scheme="https://aiya-z.github.io/categories/mixed/cpp/" />
+        <category term="c++" scheme="https://aiya-z.github.io/tags/c/" />
         <updated>2024-05-21T00:37:32.000Z</updated>
     </entry>
     <entry>
-        <id>https://aiya-z.github.io/2024/05/20/hello-world/</id>
+        <id>https://aiya-z.github.io/2024/05/20/mixed/cpp/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="https://aiya-z.github.io/2024/05/20/hello-world/"/>
+        <link rel="alternate" href="https://aiya-z.github.io/2024/05/20/mixed/cpp/hello-world/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
