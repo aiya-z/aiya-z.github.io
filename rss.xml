@@ -10,9 +10,95 @@
         </author>
         <description>记录学习的过程</description>
         <language>en</language>
-        <pubDate>Tue, 21 May 2024 08:37:32 +0800</pubDate>
-        <lastBuildDate>Tue, 21 May 2024 08:37:32 +0800</lastBuildDate>
+        <pubDate>Mon, 27 May 2024 20:31:45 +0800</pubDate>
+        <lastBuildDate>Mon, 27 May 2024 20:31:45 +0800</lastBuildDate>
         <category term="computer science" />
+        <item>
+            <guid isPermalink="true">https://aiya-z.github.io/2024/05/27/mixed/TeX/ctex/</guid>
+            <title>计算机学报的Latex模板下载Ctex编译</title>
+            <link>https://aiya-z.github.io/2024/05/27/mixed/TeX/ctex/</link>
+            <category term="杂项" scheme="https://aiya-z.github.io/categories/mixed/" />
+            <category term="TeX" scheme="https://aiya-z.github.io/categories/mixed/TeX/" />
+            <category term="TeX" scheme="https://aiya-z.github.io/tags/TeX/" />
+            <pubDate>Mon, 27 May 2024 20:31:45 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;计算机学报的latex模板下载ctex编译&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#计算机学报的latex模板下载ctex编译&#34;&gt;#&lt;/a&gt; 计算机学报的 Latex 模板下载 Ctex 编译&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;由于要按计算机学报的模板写一篇论文，下载了模板之后，在 TeXstudio 上无法运行，一堆报错，查了一下是要下载 Ctex 才可以。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cjc.ict.ac.cn/wltg/new/submit/LatexTemplet.zip&#34;&gt;计算机学报模板下载&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;我是在清华源里下载的&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/ctex/legacy/2.9/&#34;&gt; Ctex&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;最好下载full的版本如果下载较小版本后续可能会有编译错误-一路下一步应该就可以了需要安装的插件我是全选的害怕后续会有出什么别的幺蛾子&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最好下载full的版本如果下载较小版本后续可能会有编译错误-一路下一步应该就可以了需要安装的插件我是全选的害怕后续会有出什么别的幺蛾子&#34;&gt;#&lt;/a&gt; &lt;strong&gt;最好下载 full 的版本，如果下载较小版本后续可能会有编译错误。&lt;/strong&gt;&lt;br /&gt;
+一路下一步应该就可以了，需要安装的插件我是全选的，害怕后续会有出什么别的幺蛾子。&lt;/h2&gt;
+&lt;p&gt;安装完成之后。&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;WinEdt.webp&#34; alt=&#34;&#34; title=&#34;用WinEdt打开&#34; /&gt;&lt;br /&gt;
+&lt;strong&gt;WinEdt 打开模板中的.tex 文件，PDFLaTeX 编译，直接成功&lt;/strong&gt;&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;PDF.webp&#34; alt=&#34;&#34; title=&#34;运行结果&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://aiya-z.github.io/2024/05/25/mixed/cpp/cpp20grammar/</guid>
+            <title>C++20中有用的库</title>
+            <link>https://aiya-z.github.io/2024/05/25/mixed/cpp/cpp20grammar/</link>
+            <category term="杂项" scheme="https://aiya-z.github.io/categories/mixed/" />
+            <category term="C++" scheme="https://aiya-z.github.io/categories/mixed/cpp/" />
+            <category term="c++" scheme="https://aiya-z.github.io/tags/c/" />
+            <pubDate>Sat, 25 May 2024 08:48:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;stdstring&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#stdstring&#34;&gt;#&lt;/a&gt; std::string&lt;/h2&gt;
+&lt;p&gt;这个可以让我们更方便地处理 string 字符串格式化的问题，学过 Python 的话对这个会更熟悉。&lt;/p&gt;
+&lt;p&gt;首先需要引入头文件&lt;br /&gt;
+ &lt;code&gt;#include &amp;lt;format&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;最简单的情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最简单的情况&#34;&gt;#&lt;/a&gt; 最简单的情况：&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;std::string formatted_string = std::format(&amp;quot;My name is &amp;#123;&amp;#125; and I am &amp;#123;&amp;#125; years old.&amp;quot;, name, age);&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;对小数格式化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对小数格式化&#34;&gt;#&lt;/a&gt; 对小数格式化：&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;float x = 1.151, float y = 3.15
+std::string formatted_string = std::format(&amp;quot;coordination: (&amp;#123;:.1f&amp;#125;, &amp;#123;:.1f&amp;#125;)&amp;quot;, x, y);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输出：&lt;br /&gt;
+ &lt;code&gt;coordination: (1.2, 3.1)&lt;/code&gt; &lt;br /&gt;
+ 我们可以注意到当小数后面省去的&lt;strong&gt;超过&lt;/strong&gt;一半时是会进位的，0.15 会省略尾数变为 0.1，0.151 就是 0.2 了。&lt;/p&gt;
+&lt;h3 id=&#34;带索引的占位符&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#带索引的占位符&#34;&gt;#&lt;/a&gt; 带索引的占位符&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;std::string formatted_string = std::format(&amp;quot;Name: &amp;#123;0&amp;#125;, Age: &amp;#123;1&amp;#125;, Name: &amp;#123;0&amp;#125;&amp;quot;, name, age);&lt;/code&gt; &lt;br /&gt;
+ 输出：&lt;br /&gt;
+ &lt;code&gt;Name: name, Age: age, Name: name&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;带索引同时对小数格式化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#带索引同时对小数格式化&#34;&gt;#&lt;/a&gt; 带索引同时对小数格式化&lt;/h3&gt;
+&lt;p&gt;后面的变量可以是表达式的形式，支持加减乘除。&lt;br /&gt;
+ &lt;code&gt;std::string formatted_string = std::format(&amp;quot;Product: &amp;#123;0&amp;#125;, Price: $&amp;#123;1:.2f&amp;#125;, Quantity: &amp;#123;2&amp;#125;, Total: $&amp;#123;3:.2f&amp;#125;&amp;quot;, product, price, quantity, price * quantity);&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://aiya-z.github.io/2024/05/24/mixed/cpp/cpp23/</guid>
+            <title>VScode配置cpp23</title>
+            <link>https://aiya-z.github.io/2024/05/24/mixed/cpp/cpp23/</link>
+            <category term="杂项" scheme="https://aiya-z.github.io/categories/mixed/" />
+            <category term="C++" scheme="https://aiya-z.github.io/categories/mixed/cpp/" />
+            <category term="c++" scheme="https://aiya-z.github.io/tags/c/" />
+            <pubDate>Fri, 24 May 2024 14:36:23 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;mingw下载&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mingw下载&#34;&gt;#&lt;/a&gt; MinGW 下载&lt;/h2&gt;
+&lt;p&gt;可以在&lt;a href=&#34;https://github.com/niXman/mingw-builds-binaries/releases&#34;&gt;下载地址&lt;/a&gt;里下载最新版本：&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;MinGW.webp&#34; alt=&#34;&#34; title=&#34;下载MinGW&#34; /&gt;&lt;br /&gt;
+下载 x86_64-13.2.0-release-posix-seh-ucrt-rt_v11-rev1.7z 即可。&lt;br /&gt;
+&lt;span id=&#34;more&#34;&gt;&lt;/span&gt;&lt;br /&gt;
+ 然后将其解压，如下图示，将 mingw64 拷贝到自己存放文件的盘，不建议存放在 C 盘，笔者将其放在 D 盘的 Tools 文件夹下，如下图示。&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;folder.webp&#34; alt=&#34;&#34; title=&#34;放在相应文件夹&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置环境变量&#34;&gt;#&lt;/a&gt; 配置环境变量&lt;/h2&gt;
+&lt;p&gt;在电脑下方的搜索框里输入&lt;strong&gt;环境&lt;/strong&gt;就可以出来。&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;environment.webp&#34; alt=&#34;&#34; title=&#34;配置环境&#34; /&gt;&lt;br /&gt;
+然后点击高级 - 环境变量 - 双击（系统变量里的）Path - 将 mingw64 的 bin 目录输入进去，然后一路确定关闭即可。&lt;br /&gt;
+![](envi1.webp 配置环境)&lt;br /&gt;
+ 调 cmd 出来输入 gcc -v 查看是否有版本号输出。&lt;br /&gt;
+再输入 &lt;code&gt;gcc -v -E -x c++ -&lt;/code&gt;  后续会用到下面的路径，可以提前复制。&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;path.webp&#34; alt=&#34;&#34; title=&#34;需要提前复制&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置vscode&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置vscode&#34;&gt;#&lt;/a&gt; 配置 VScode&lt;/h2&gt;
+&lt;p&gt;进入 VScode 以后按下 ctrl+shift+p，输入 c/c++，选择 Edit Configuration (UI)&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;EditConf.webp&#34; alt=&#34;&#34; title=&#34;Edit Configuration&#34; /&gt;&lt;br /&gt;
+ 将刚才复制的路径粘贴到 Include Path 中&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;includepath.webp&#34; alt=&#34;&#34; title=&#34;编辑Include Path&#34; /&gt;&lt;br /&gt;
+调整 C 和 C++ Standard&lt;br /&gt;
+![[c23]]&lt;br /&gt;
+ 最后编辑.vscode 里的 tasks.json 就好啦&lt;br /&gt;
+&lt;img loading=&#34;lazy&#34; data-src=&#34;std.webp&#34; alt=&#34;&#34; title=&#34;增加-std=c++2a&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://aiya-z.github.io/2024/05/21/mixed/cpp/jsoncpp/</guid>
             <title>jsoncpp</title>
